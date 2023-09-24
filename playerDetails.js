@@ -26,7 +26,7 @@ for (var i = 0; i < playersDetails.length; i++) {
         <table>
         <tr>
             <td>Player Name  </td>
-            <td>${--playersDetails[i].playerName}  </td>
+            <td>${playersDetails[i].playerName}  </td>
         </tr>
     <table>
         <tr>
