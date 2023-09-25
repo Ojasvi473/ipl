@@ -25,7 +25,6 @@
   position: fixed;
   height: 70px;
 
-  /* background-color: darkgray; */
   background-color: gainsboro;
 }
 #head-con2 {
@@ -59,10 +58,9 @@
 }
 #home-button {
   #home-button {
-    /* width: 411px; */
     margin-top: 10px;
     width: 50%;
-    /* margin-left: 2%; */
+
     height: 50px;
     width: 180px;
     cursor: pointer;
@@ -71,7 +69,7 @@
     border: 0px;
     font-size: 25px;
     font-weight: 600;
-    /* border-radius: 5px; */
+
     color: cadetblue;
   }
 }
@@ -81,7 +79,6 @@
 }
 
 .add-button {
-  /* margin-top: 161px; */
   height: 80px;
   width: 181px;
   cursor: pointer;
@@ -214,7 +211,6 @@
   width: 100%;
 }
 #table-team td {
-  /* border: 1px solid blueviolet; */
   width: 30vw;
   padding-left: 10vw;
 }
@@ -225,7 +221,6 @@
   width: 100px;
 }
 #player-details-con {
-  /* display: flex; */
   width: 65%;
   height: 80vh;
   justify-content: center;
@@ -236,7 +231,7 @@
 }
 #new-player-det td {
   font-size: 30px;
-  /* border: 1px solid black; */
+
   width: 30vw;
   padding-left: 10vw;
 }
@@ -262,8 +257,7 @@
 }
 #addteamform {
   background-image: url("https://previews.123rf.com/images/albund/albund1503/albund150300069/37205941-a-cricket-stadium-with-a-white-leather-cricket-ball-on-an-unmarked-green-grass-pitch-in-the-daytime.jpg");
-  /* background-color: #8bc6ec; */
-  /* background-image: linear-gradient(135deg, #8bc6ec 0%, #11dcc2 100%); */
+
   border-radius: 60px;
   margin: 10px 0;
   width: 60%;
@@ -281,15 +275,12 @@
 }
 #addteamform input {
   color: black;
-  /* border-radius: 10px; */
+
   background-color: white;
   width: 70%;
   height: 40px;
 }
 #addteamform select {
-  /* border-radius: 10px; */
-  /* background-color: cornflowerblue; */
-
   color: black;
   width: 70%;
   height: 40px;
