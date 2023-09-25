@@ -326,7 +326,8 @@
   cursor: pointer;
 }
 #slogan3 {
-  margin-left: 300px;
+  margin-left: 273px;
+  /* margin-left: 300px; */
   justify-content: center;
   display: flex;
   margin-top: 70px;
@@ -338,7 +339,8 @@
   cursor: pointer;
 }
 #slogan4 {
-  margin-left: 263px;
+  margin-left: 236px;
+  /* margin-left: 263px; */
   justify-content: center;
   display: flex;
   margin-top: 70px;
