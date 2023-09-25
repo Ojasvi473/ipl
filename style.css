@@ -11,7 +11,8 @@
   margin-top: 30px;
 }
 #logo {
-  width: 120px;
+  height: 70px;
+  width: 170px;
   background-color: #efefef;
 }
 #head-container,
@@ -24,7 +25,8 @@
   position: fixed;
   height: 70px;
 
-  background-color: darkgray;
+  /* background-color: darkgray; */
+  background-color: gainsboro;
 }
 #head-con2 {
   margin-top: -100px;
@@ -53,40 +55,49 @@
   width: 45%;
 }
 #home-button:hover {
-  color: #67229c;
+  color: white;
 }
 #home-button {
-  margin-top: 10px;
-  width: 10%;
-  margin-left: 2%;
-  height: 50px;
-  width: 100px;
-  background-color: cornflowerblue;
-  border: 0px;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 5px;
-  color: #ffffff;
-  cursor: pointer;
-  margin-left: 10px;
+  #home-button {
+    /* width: 411px; */
+    margin-top: 10px;
+    width: 50%;
+    /* margin-left: 2%; */
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: gainsboro;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    /* border-radius: 5px; */
+    color: cadetblue;
+  }
 }
 #home-button:hover {
   box-shadow: 1px 1px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
   cursor: pointer;
 }
+
 .add-button {
-  width: 151px;
+  /* margin-top: 161px; */
+  height: 80px;
+  width: 181px;
   cursor: pointer;
-  background-color: cornflowerblue;
+  padding: 5px 20px;
+  margin: -10px;
+  background-color: gainsboro;
   border: 0px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
-  color: #ffffff;
-  padding: 5px 20px;
-  margin: 10px;
+  color: cadetblue;
 }
+
 .add-button:hover {
+  color: white;
+  background-color: grey;
   box-shadow: 0px 0px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
   cursor: pointer;
 }
@@ -154,7 +165,7 @@
   text-align: center;
   line-height: 55px;
   font-size: 20px;
-  color: #ba1f1f;
+  color: black;
   cursor: pointer;
 }
 
@@ -203,7 +214,7 @@
   width: 100%;
 }
 #table-team td {
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
   width: 30vw;
   padding-left: 10vw;
 }
@@ -220,9 +231,12 @@
   justify-content: center;
   align-items: center;
 }
-
+#new-player-det {
+  margin-top: -229px;
+}
 #new-player-det td {
-  border: 1px solid black;
+  font-size: 30px;
+  /* border: 1px solid black; */
   width: 30vw;
   padding-left: 10vw;
 }
@@ -239,6 +253,7 @@
   justify-content: center;
 }
 #add-team {
+  background-image: url("https://img.freepik.com/free-vector/red-ball-hitting-wicket-stumps-with-bat-black-abstract-splash-background-cricket-fever-concept_1302-5492.jpg?size=626&ext=jpg");
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -246,12 +261,13 @@
   align-items: center;
 }
 #addteamform {
-  background-color: #8bc6ec;
-  background-image: linear-gradient(135deg, #8bc6ec 0%, #11dcc2 100%);
-  border-radius: 150px;
+  background-image: url("https://previews.123rf.com/images/albund/albund1503/albund150300069/37205941-a-cricket-stadium-with-a-white-leather-cricket-ball-on-an-unmarked-green-grass-pitch-in-the-daytime.jpg");
+  /* background-color: #8bc6ec; */
+  /* background-image: linear-gradient(135deg, #8bc6ec 0%, #11dcc2 100%); */
+  border-radius: 60px;
   margin: 10px 0;
   width: 60%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,19 +277,20 @@
   font-size: 24px;
   padding: 20px 0 0 0;
   font-weight: 500;
-  color: currentColor;
+  color: black;
 }
 #addteamform input {
-  border-radius: 10px;
-  background-color: cornflowerblue;
+  color: black;
+  /* border-radius: 10px; */
+  background-color: white;
   width: 70%;
   height: 40px;
 }
 #addteamform select {
-  border-radius: 10px;
-  background-color: cornflowerblue;
+  /* border-radius: 10px; */
+  /* background-color: cornflowerblue; */
 
-  color: white;
+  color: black;
   width: 70%;
   height: 40px;
 }
@@ -300,7 +317,7 @@
   display: flex;
   margin-top: 50px;
   padding: 20px 0;
-  width: 75%;
+  width: 98%;
   background-color: #74ebd5;
   background-image: linear-gradient(90deg, #0093e9 0%, #de35bd 100%);
 
@@ -318,7 +335,7 @@
   cursor: pointer;
 }
 #slogan3 {
-  margin-left: 274px;
+  margin-left: 300px;
   justify-content: center;
   display: flex;
   margin-top: 70px;
@@ -330,7 +347,7 @@
   cursor: pointer;
 }
 #slogan4 {
-  margin-left: 233px;
+  margin-left: 263px;
   justify-content: center;
   display: flex;
   margin-top: 70px;
@@ -373,27 +390,36 @@ footer {
   padding: 12px;
 }
 #table-team {
+  background-image: url("https://i.pinimg.com/originals/d7/58/ea/d758ea241bc50ccbbb25bde4af8cdf0b.png");
   width: 100%;
 }
+.main {
+  background-color: blue;
+}
 #table-team table {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 24px;
   margin-bottom: 10px;
   padding: 20px;
+  /* teaxt-color: #ff3cac; */
   background-color: #3ac5a2;
   background-image: linear-gradient(90deg, #a852a1 0%, #611163 80%);
 }
 #table-team td {
+  /* background-image: url(); */
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .player-detail td {
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
-  background-color: #2bbde2;
+  /* background-color: #2bbde2; */
   color: white;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle 976px at 51.2% 51%,
     rgb(38 216 147) 0%,
     rgb(16, 141, 157) 0%,
@@ -402,13 +428,14 @@ footer {
     rgb(95 193 51) 71.4%,
     rgb(64 147 151) 100.2%,
     rgba(187, 187, 187, 1) 100.2%
-  );
+  ); */
+  background-image: url("https://www.pngmart.com/files/22/Blue-Background-PNG-HD-Isolated.png");
 }
 .player-detail {
-  margin-top: 10px;
+  /* margin-top: px; */
   margin-bottom: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding: 20px;
-  background-color: #0093e9;
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  /* background-color: #0093e9; */
+  background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg");
 }
